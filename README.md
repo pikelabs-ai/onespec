@@ -2,6 +2,13 @@
 
 **One shared spec for your team and every AI it works with.**
 
+![Four people on four days, each adding to one shared spec, so Thursday starts with everything Monday to Wednesday worked out.](docs/onespec-hero.jpg)
+
+> **Status: beta, in development.** The practice described here is in daily use and you can adopt it
+> today by copying the layout below. The `onespec` command-line tool (`init`, `index`, `check`) and the
+> agent instructions are being built now and will land in this repo. More at
+> [pikelabs.ai/onespec](https://pikelabs.ai/onespec).
+
 Every AI session starts from zero. You spend the first part of it re-explaining the system, the
 customer, and what was decided last week, and when the session ends, what you worked out together
 goes with it. With several people each running their own sessions, the loss multiplies: nobody's
@@ -82,7 +89,9 @@ The next session, yours or a teammate's, starts at step 1 with everything this o
 
 ## Getting started
 
-Install the command-line tool (Python 3.9 or later, no other dependencies):
+Install the command-line tool (Python 3.9 or later, no other dependencies). *Coming with the first
+release; until then, create the `doc/spec/` folders from [The shape](#the-shape) by hand and ask your
+agent to follow this README.*
 
 ```
 pipx install onespec
